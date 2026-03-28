@@ -311,7 +311,7 @@ export default function Home() {
         <Reveal delay={150}>
           <div className="download-buttons">
             <a
-              href="https://github.com/wxkingstar/TransEcho/releases/latest"
+              href="https://github.com/wxkingstar/TransEcho/releases"
               target="_blank"
               rel="noopener noreferrer"
               className="download-btn"
@@ -328,7 +328,7 @@ export default function Home() {
             </a>
 
             <a
-              href="https://github.com/wxkingstar/TransEcho/releases/latest"
+              href="https://github.com/wxkingstar/TransEcho/releases"
               target="_blank"
               rel="noopener noreferrer"
               className="download-btn"
