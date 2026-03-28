@@ -122,7 +122,7 @@ export default function Home() {
             跨语言会议，不应该成为沟通的障碍
           </p>
           <p className="statement-sub">
-            打开 TransEcho，配合 <span className="highlight">腾讯会议 / Zoom / Teams</span> <span style={{ whiteSpace: 'nowrap' }}>即可使用</span>
+            <span style={{ whiteSpace: 'nowrap' }}>打开 TransEcho，配合 <span className="highlight">腾讯会议 / Zoom / Teams</span> 即可使用</span>
             <br />
             无需配置，开箱即用的同声传译
           </p>
