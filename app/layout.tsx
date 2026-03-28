@@ -51,7 +51,9 @@ export default function RootLayout({
       className={`${unbounded.variable} ${notoSans.variable} ${jetbrains.variable}`}
     >
       <body>
-        {children}
+        <div className="page-wrapper">
+          {children}
+        </div>
         <div className="noise-overlay" aria-hidden="true" />
       </body>
     </html>
