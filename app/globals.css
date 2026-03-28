@@ -1157,6 +1157,7 @@ img {
 
   .divider {
     margin: 0 16px;
+    width: auto;
   }
 
   /* ── Navbar ── */
