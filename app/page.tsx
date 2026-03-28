@@ -79,28 +79,28 @@ const features = [
 
 const useCases = [
   {
-    emoji: '📺',
-    title: '海外直播',
-    desc: '观看 YouTube、Twitch、niconico 直播时实时生成翻译字幕',
-    apps: ['YouTube', 'Twitch', 'niconico'],
+    emoji: '💼',
+    title: '跨语言会议',
+    desc: '与海外同事或客户开会，实时同声传译，沟通零障碍',
+    apps: ['腾讯会议', 'Zoom', 'Teams', 'Meet'],
   },
   {
-    emoji: '💼',
-    title: '远程会议',
-    desc: '在 Zoom、Teams 等跨语言会议中获得同声传译辅助',
-    apps: ['Zoom', 'Teams', 'Meet'],
+    emoji: '📞',
+    title: '跨国电话 / 语音',
+    desc: '接听外语电话或语音消息，实时翻译对方说的每一句话',
+    apps: ['电话', 'WhatsApp', 'Skype'],
+  },
+  {
+    emoji: '📺',
+    title: '海外直播 / 视频',
+    desc: '观看 YouTube、Twitch 等海外内容，实时生成翻译字幕',
+    apps: ['YouTube', 'Twitch', 'niconico'],
   },
   {
     emoji: '📚',
     title: '语言学习',
-    desc: '听外语播客或视频时双语对照，沉浸式学习语言',
+    desc: '听外语播客或看视频时双语对照，沉浸式提升听力',
     apps: ['Podcast', 'Coursera', 'TED'],
-  },
-  {
-    emoji: '🎬',
-    title: '追番看剧',
-    desc: '无字幕的生肉视频也能实时翻译，追番再无阻碍',
-    apps: ['Anime', 'Netflix', 'Disney+'],
   },
 ]
 
@@ -119,10 +119,12 @@ export default function Home() {
       <section className="statement-section">
         <Reveal>
           <p className="statement-lead">
-            每天有数亿小时的外语内容在互联网上产生
+            跨语言会议，不应该成为沟通的障碍
           </p>
           <p className="statement-sub">
-            其中 <span className="highlight">99%</span> 没有你的母语字幕
+            打开 TransEcho，配合 <span className="highlight">腾讯会议 / Zoom / Teams</span> 即可使用
+            <br />
+            无需配置，开箱即用的同声传译
           </p>
         </Reveal>
       </section>

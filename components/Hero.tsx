@@ -49,9 +49,9 @@ export default function Hero() {
         <p className="hero-subtitle">所听即所译</p>
 
         <p className="hero-desc">
-          捕获系统音频，实时翻译字幕 + 语音同传
+          配合腾讯会议 / Zoom / Teams，打开即用
           <br />
-          跨越语言的声音桥梁
+          跨语言会议和通话的实时同声传译助手
         </p>
 
         <div className="hero-actions">
